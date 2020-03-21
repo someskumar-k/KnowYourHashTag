@@ -67,7 +67,7 @@ class InstaJSONExtracor:
         try:
             return post["edge_media_to_caption"]["edges"][0]["node"]["text"]
         except Exception as exce:
-            raise exce
+            return ""
     @staticmethod
     def get_post_isvideo(post):
         try:
