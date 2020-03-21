@@ -136,5 +136,7 @@ test.py
 *.pyc
 *.json
 pyApi/
-
+.vscode/
+.git/
+sampledata/
 
